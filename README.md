@@ -256,7 +256,7 @@ pip install YOURPACKAGENAME
 It works! Now open the python SHELL/IDLE and import your package. 
 
 # Change your package
-If you maintain your package well, you will need to change the source code form time to time. This is easy. Simply upload your new code to github, then adapt the setup.py file (new download_url, new version), then run the twin command again (navigate to your folder first!)
+If you maintain your package well, you will need to change the source code form time to time. This is easy. Simply upload your new code to github, create a new release, then adapt the setup.py file (new download_url - according to your new release tag, new version), then run the twin command again (navigate to your folder first!)
 ```sh 
 twine upload dist/*
 ```
