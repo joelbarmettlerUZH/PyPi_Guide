@@ -110,6 +110,7 @@ Place all these files outside of your package folder:
 > setup.cfg  
 > LICENSE.txt  
 > README.md  
+
 Let's go through this files one-by-one  
 
 ## setup.py
