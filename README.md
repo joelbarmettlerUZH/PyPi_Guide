@@ -71,18 +71,18 @@ from packagename.Filename import Classname
 The \_\_init.py\_\_ file is used to mark which classes you want the user to access through the package interface. 
 Let's make an example. Assume you want to upload a library named "MyLib" to PyPi. First, create a Folder called "MyLib" and place your classes inside of it. 
 
-> MyLib
-> -Class1.py
-> -Class2.py
+> MyLib  
+> -Class1.py  
+> -Class2.py  
 
 Then, remove all print-statements and all the code that does not sit inside of a class. 
 
 Finally, create the \_\_init.py\_\_-file and import all the methods that the user should access. 
 
-> MyLib
-> -\_\_init.py\_\_
-> -File1.py
-> -File1.py
+> MyLib  
+> -\_\_init.py\_\_  
+> -File1.py  
+> -File1.py  
 
 ```python
 # Inside of __init__.py
@@ -105,12 +105,12 @@ PyPi needs three files in order to work:
 - README.md (optinal but highly recommended)
 
 Place all these files outside of your package folder:
-> MyLib
-> setup.py
-> setup.cfg
-> LICENSE.txt
-> README.md
-Let's go through this files one-by-one
+> MyLib  
+> setup.py  
+> setup.cfg  
+> LICENSE.txt  
+> README.md  
+Let's go through this files one-by-one  
 
 ## setup.py
 The setup.py file contains information about your package that pip needs, like its name, a description, the current version etc. Copy and Paste the following Code and replace the Strings with your matching content:
